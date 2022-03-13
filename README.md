@@ -1,7 +1,31 @@
-# Startup Scaffoldings
+# Next.js Startup
 
-## Branch Index
+```bash
+git clone -b next https://github.com/LolipopJ/startup.git
+```
 
-| Branch Name | Main Technology Stack            | Description |
-| ----------- | -------------------------------- | ----------- |
-| Nuxt        | Nuxt.js, TailwindCSS, Typescript |
+## Getting Started
+
+```bash
+yarn dev
+```
+
+## Build for Project
+
+```bash
+yarn build
+```
+
+## Run serve
+
+```bash
+yarn start
+```
+
+## Lint
+
+```bash
+yarn prettier
+# or
+yarn lint
+```
