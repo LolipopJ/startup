@@ -1,7 +1,19 @@
-# Startup Scaffoldings
+# Hexo Theme
 
-## Branch Index
+https://hexo.io/docs/themes
 
-| Branch Name                                           | Main Technology Stack            | Description |
-| ----------------------------------------------------- | -------------------------------- | ----------- |
-| [next](https://github.com/LolipopJ/startup/tree/next) | Next.js, TailwindCSS, Typescript |
+```bash
+git clone -b hexo https://github.com/LolipopJ/startup.git
+```
+
+## Build theme
+
+```bash
+npm run build
+```
+
+## Lint
+
+```bash
+npm run prettier
+```
