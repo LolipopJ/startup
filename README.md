@@ -3,7 +3,7 @@
 https://hexo.io/docs/themes
 
 ```bash
-git clone -b hexo https://github.com/LolipopJ/startup.git
+git clone -b hexo https://github.com/LolipopJ/startup.git --depth 1
 ```
 
 ## Build theme
