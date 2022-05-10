@@ -1,7 +1,7 @@
 # Next.js Startup
 
 ```bash
-git clone -b next https://github.com/LolipopJ/startup.git
+git clone -b next https://github.com/LolipopJ/startup.git --depth 1
 ```
 
 ## Getting Started
