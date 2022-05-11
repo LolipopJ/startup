@@ -1,18 +1,20 @@
 {
-	"apps" : [{
-		"name": "koa2-dev",
-		"script": "build/app.js",
-		"instances": 1,
-		"exec_mode": "fork",
-		"watch": ["build"],
-		"out_file": "./logs/pm2-output-dev.log",
-		"error_file": "./logs/pm2-error-dev.log",
-		"log_date_format" : "YYYY-MM-DD HH:mm Z",
-		"combine_logs": true,
-		"listen_timeout": 8000,
-		"kill_timeout": 1600,
-		"env": {
-			"NODE_ENV": "development"
-		}
-	}]
+  "apps": [
+    {
+      "name": "koa2-dev",
+      "script": "build/app.js",
+      "instances": 1,
+      "exec_mode": "fork",
+      "watch": ["build"],
+      "out_file": "./logs/pm2-output-dev.log",
+      "error_file": "./logs/pm2-error-dev.log",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "combine_logs": true,
+      "listen_timeout": 8000,
+      "kill_timeout": 1600,
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  ]
 }
