@@ -7,15 +7,14 @@ git clone https://github.com/LolipopJ/startup.git -b koa2 --depth 1
 ## Development
 
 ```bash
-# Watch change of src/**/*.ts
+# Watch change of src/**/*.ts and config/**/*.ts
 npm run dev
 ```
 
 Open a new terminal, and run command:
 
 ```bash
-# Run koa app as a pm2 instance in dev mode
-npm run start
+npm run nodemon
 ```
 
 ## Deployment

@@ -1,7 +1,6 @@
 {
   "name": "koa2",
   "version": "0.0.1",
-  "type": "module",
   "main": "src/app.ts",
   "repository": "https://github.com/LolipopJ/startup.git",
   "author": "JasonSun <lolipop0703@qq.com>",
@@ -10,6 +9,7 @@
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
+    "nodemon": "nodemon --watch build build/app.js",
     "start": "npm run build && pm2 start config/pm2.dev.config.json && pm2 logs",
     "deploy": "npm run build && pm2 start config/pm2.prod.config.json",
     "prettier": "prettier --write **/* --ignore-path .gitignore --ignore-unknown"
@@ -33,6 +33,7 @@
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
     "pm2": "^5.2.0",
     "prettier": "^2.6.2",
     "typescript": "^4.6.4"

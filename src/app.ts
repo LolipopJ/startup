@@ -17,4 +17,6 @@ app.use(KoaCors());
 app.use(KoaLogger());
 app.use(router.routes()).use(router.allowedMethods());
 
-app.listen(process.env.PORT || '4001');
+const port = process.env.PORT || '4000';
+app.listen(port);
+console.log(`Koa 开始监听 ${port} 端口`);

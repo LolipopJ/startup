@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "esnext",
+    "target": "es6",
+    "module": "CommonJS",
     "strict": true,
-    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": false,
     "noImplicitAny": false,
     "removeComments": true,
     "preserveConstEnums": true,
@@ -12,6 +13,6 @@
     "outDir": "build",
     "watch": false
   },
-  "include": ["**/*.ts"],
+  "include": ["src/**/*.ts", "config/**/*.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
