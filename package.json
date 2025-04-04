@@ -1,0 +1,52 @@
+{
+  "name": "my-element",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/my-element.js",
+  "module": "dist/my-element.js",
+  "types": "dist/my-element.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "web-dev-server --watch",
+    "serve:prod": "MODE=prod npm run serve",
+    "lint": "npm run lint:lit-analyzer && npm run lint:eslint",
+    "lint:eslint": "eslint",
+    "lint:lit-analyzer": "lit-analyzer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LolipopJ/my-element.git"
+  },
+  "keywords": [
+    "web-components",
+    "lit-element",
+    "typescript"
+  ],
+  "author": "LolipopJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LolipopJ/my-element/issues"
+  },
+  "homepage": "https://github.com/LolipopJ/my-element#readme",
+  "description": "",
+  "dependencies": {
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@web/dev-server": "^0.4.6",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-lit": "^2.0.0",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-wc": "^3.0.0",
+    "globals": "^16.0.0",
+    "lit-analyzer": "^2.0.3",
+    "prettier": "^3.5.3",
+    "ts-lit-plugin": "^2.0.2",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.29.0"
+  }
+}
